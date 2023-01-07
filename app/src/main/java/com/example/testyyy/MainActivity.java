@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
         */
 
+        int x;
         RFInterface rfif = rf.create(RFInterface.class);
 
         Call<List<GHRepos>> call =rfif.reposUser("fs-opensource");
